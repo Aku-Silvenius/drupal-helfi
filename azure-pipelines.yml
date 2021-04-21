@@ -19,10 +19,10 @@ pr: none
 resources:
   repositories:
   # Azure DevOps repository
-  - repository: aro-automaatio-demo-pipelines
+  - repository: ansible-devops-testi-pipelines
     type: git
     # project/repository
-    name: aro-automaatio-demo/aro-automaatio-demo-pipelines
+    name: ansible-devops-testi/ansible-devops-testi-pipelines
 
 extends:
-  template: azure-pipelines-drupal.yml@aro-automaatio-demo-pipelines
+  template: azure-pipelines-drupal.yml@ansible-devops-testi-pipelines
